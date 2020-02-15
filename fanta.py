@@ -151,7 +151,7 @@ def evo_plot(games, df_final, par, title, ylabel, threshold):
         for x, y, text in zip(gm, marks, dd[par]):
             plt.text(x, y, text, horizontalalignment='center', verticalalignment='center', color='white')
     plt.xticks(np.arange(0, games+1))
-    plt.xlim((0,games+1))
+    plt.xlim((-0.5, games+0.5))
     plt.grid(axis='x', linestyle='-', linewidth=5, alpha=0.2)
     plt.grid(axis='y', alpha=0.2)
     plt.xlabel('Matchday')
