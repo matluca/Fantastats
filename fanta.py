@@ -73,15 +73,6 @@ def get_team_colors():
     '''Return list of team colors by default order'''
     colors = [config.Teams[key][1] for key in config.Teams.keys()]
     return colors
-    
-def fattore_distacco(Total):
-    pf_med = np.median(Total['fantapoints made'])
-    pf_std = np.std(Total['fantapoints made'])
-    dist_med = np.median(Total['distacco'])
-    dist_std = np.std(Total['distacco'])
-    pf_rel = (Total['fantapoints made']-pf_med) / pf_std
-    dist_rel = (Total['distacco']-dist_med) / dist_std
-    return -dist_rel - pf_rel
 
 def points_gaines_diff(fp_made, fp_against, pts):
     '''Returns points gained wrt the expected value given the difference in fantapoints'''
