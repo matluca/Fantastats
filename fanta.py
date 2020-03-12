@@ -168,7 +168,7 @@ def melt_df(df_final, variables = ['fantapoints against', 'fantapoints made']):
     return mdf
 
 ### Expected value of goals against, facing all other opponents ##############################
-def exp_goal_plot(df_total, games):
+def exp_goal_plot(df_total, games, games_completed):
     df_total['x_GA'] = (df_total['GM'].sum()-df_total['GM']) / (config.n_players-1)
     fig = plt.figure(figsize=(8,5))
     colors = get_team_colors()
@@ -179,13 +179,13 @@ def exp_goal_plot(df_total, games):
     plt.grid(which='both', axis='y', alpha=0.25)
     plt.ylim(bottom = min(df_total['GA']-1))
     plt.ylabel('Goals Against')
-    title = 'Exp Goals Against (' + str(games) + ' games)'
+    title = 'Exp Goals Against (Matchday ' + str(games) + ', ' + str(games_completed) + ' completed)'
     plt.title(title)
     plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
     plt.show()
     
 ### Fantapoints made vs classification ###############
-def fantap_vs_class(df_total, games):
+def fantap_vs_class(df_total, games, games_completed):
     fig = plt.figure(figsize=(8,5))
     colors = get_team_colors()
     plt.bar(np.arange(0, config.n_players), df_total['fantapoints made'], color=colors, alpha=0.99, label='Fantapoints')
@@ -202,13 +202,13 @@ def fantap_vs_class(df_total, games):
     ax2.plot([],[])
     plt.bar(np.arange(0, config.n_players), df_total['points'], color='black', alpha=0.5, width=0.35, label='Points')
     plt.grid(which='both', axis='y', alpha=0.25)
-    title = 'Points vs Fantapoints Made (' + str(games) + ' games)'
+    title = 'Points vs Fantapoints Made (Matchday ' + str(games) + ', ' + str(games_completed) + ' completed)'
     plt.title(title)
     ax2.legend(bbox_to_anchor=(1.05, 0.9), loc=2, borderaxespad=0.)
     plt.show()
 
 ### Luck Index plot ###########################################
-def luck_index_plot(df_total, games):
+def luck_index_plot(df_total, games, games_completed):
     keys = ('f_close_games', 'f_day_average')  # Factors contributing to Luck Index
     cols = ['dodgerblue', 'purple']
 
@@ -233,7 +233,7 @@ def luck_index_plot(df_total, games):
         plt.annotate(f, (i, f+offset), horizontalalignment='center', verticalalignment=va)
     plt.ylim(min(df_total['Luck Index'])-2, max(df_total['Luck Index'])+2)
     plt.ylabel('Luck Index (points)')
-    title = 'Luck Index (Matchday ' + str(games) + ')'
+    title = 'Luck Index (Matchday ' + str(games) + ', ' + str(games_completed) + ' completed)'
     plt.title(title)
     plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
     plt.show()
