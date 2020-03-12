@@ -11,6 +11,7 @@ def configure_db():
     df_list = list()
     for team in config.teams:
         df_result = pd.read_csv(f'{team}.txt', sep=' ', names=config.parameters, skiprows=1)
+        df_result.dropna(axis=0, inplace=True)
         df_result['team'] = team
         df_list.append(df_result)
     df_final = reduce(lambda a, b : a.append(b), df_list)
@@ -123,8 +124,9 @@ def evo_plot(games, df_final, par, title, ylabel, threshold):
     for df in data:
         team = df['team'].unique()[0]
         color = config.Teams[team][1]
+        df = df.reindex(gms, fill_value=0) #Adding zeroes for missing games and for game number 0
         df['cumsum'] = round(np.cumsum(df[par]), 3)
-        values = pd.Series([0]).append(df['cumsum']) #Adding zeroes for game number 0
+        values = df['cumsum']
         score = values.loc[games]
         score_prev = values.loc[games-1]
         diff = round(score - score_prev,3)
