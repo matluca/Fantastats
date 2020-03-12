@@ -26,6 +26,9 @@ The luck index is then the sum of the two factors.
 ## Files
 
 Python notebook: Fantastats1920.ipynb
+
 Configuration data: config.py
+
 Functions definitions: fanta.py
+
 Raw data files: .txt
