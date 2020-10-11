@@ -1,4 +1,4 @@
-# Fantastats 2019-20
+# Fantastats
 
 ## What is Fantasy Football
 Fantasy football is a game based on the italian football league. Participants in a fantasy league select a list of players at the beginning of the season (no player can be shared between two participants). Every matchday participants select their team out of their list of players. Based on the performance on the field, players are assigned grades from 1 to 10 (10 being the best), plus some bonuses depending on goals and assists scored, cards received, and so on. Each participants is then assigned a number of fantapoints which is just the sum of grades and bonuses of the players on the team. Fantapoints are then converted in "goals". The first goal is assigned when fantapoints are more then 66; another goal is assigned every other 5 fantapoints. If the toal is less then 58, an own-goal is scored, meaning that the opponent gets one extra goal.
@@ -23,7 +23,7 @@ Since the final classification is based on points scored, and not on the "raw" f
 
 The luck index is then the sum of the two factors.
 
-## Files
+## Files (example for 2019/20 season)
 
 Python notebook: Fantastats1920.ipynb
 
