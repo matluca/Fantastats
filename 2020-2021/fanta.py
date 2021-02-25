@@ -211,6 +211,8 @@ def fantap_vs_class(df_total, games, games_completed):
 def luck_index_plot(df_total, games, games_completed):
     keys = ('f_close_games', 'f_day_average')  # Factors contributing to Luck Index
     cols = ['dodgerblue', 'purple']
+    
+    avg = df_total['Luck Index'].mean()
 
     fig = plt.figure(figsize=(8,5))
     plt.grid(which='major', axis='y', ls='-', alpha=0.25)
@@ -235,6 +237,7 @@ def luck_index_plot(df_total, games, games_completed):
     plt.ylabel('Luck Index (points)')
     title = 'Luck Index (Matchday ' + str(games) + ', ' + str(games_completed) + ' completed)'
     plt.title(title)
+    plt.axhline(avg, -100, 100, color='red', linewidth=1, ls='-', label='Average: ' + str(format(avg, '.1f')))
     plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
     plt.show()
     
