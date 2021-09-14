@@ -28,9 +28,9 @@ parameters = [
 ### List of teams #########################################################
 Teams = {'enrico' : ['Gianlucanonpressare', 'darkorange'],
          'fabio' : ['Porti Chiusi Italiani', 'yellowgreen'],
-         'gianluca' : ['La mamma di Enrico', 'midnightblue'],
          'gabriele' : ['Sciagura', 'r'],
-         'amorello' : ['Nottingham Forrest Gump', 'lightskyblue'],
+         'gianluca' : ['La mamma di Enrico', 'midnightblue'],
+         'luca' : ['Nottingham Forrest Gump', 'lightskyblue'],
          'riccardo' : ['Laggente','seagreen'],
         }
 teams = list(Teams.keys())
