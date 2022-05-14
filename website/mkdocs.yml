@@ -1,0 +1,8 @@
+site_name: Fantaculo Nonsolobaschet
+nav:
+  - Home: index.md
+  - 2018/19: Fantastats1819.md
+  - 2019/20: Fantastats1920.md
+  - 2020/21: Fantastats2021.md
+  - 2021/22: Fantastats2122.md
+  - All-Time Luck: All-Time-Luck.md
