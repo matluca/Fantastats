@@ -7,16 +7,14 @@ Fantasy football is a game based on the italian football league. Participants in
 Each participant faces another participant on every matchday; looking at how many goals he/she "scored" compared to the opponent, he/she wins, ties or loses that match. Points are assigned every matchday (3 for a win, 1 for a tie, 0 for a loss). The finals classification is based on these points, with fantapoints used as tiebreaker if needed.
 
 ## Data collected
-In the files .txt some data are collected each matchday; in particular:
-- Matchday number (gg)
-- Fantapoints (pf)
-- Opponent's fantapoints (ps)
-- Goals conceded by the goalkeeper (gs)
-- Cards (yellow: 1, red: 2) (c)
-- Defense bonus modifier (mdif)
-Based on these data the results of each matchday are computed. Furthermore an estimate of how lucky each participant has been is computed (Indice Fortuna)
-
-NB: for a missing matchday (games suspended, etc...) simply do not write the corresponding line, or write only the matchday number. The notebook will deal with the situation.
+Raw data is collected each matchday, in particular:
+- Matchday number
+- Fantapoints
+- Opponent's fantapoints
+- Goals conceded by the goalkeeper
+- Cards (yellow: 1, red: 2)
+- Defense bonus modifier
+Based on these data the results of each matchday are computed. Furthermore an estimate of how lucky each participant has been is computed (Luck Index).
 
 ## Luck Index
 Since the final classification is based on points scored, and not on the "raw" fantapoints, there is room for luck in this game. For example, a participant winning a matchday 1-0 is considered lucky if all the other participants scored 2 or more goals that same matchday. Furthermore, a difference of, say, 2 fantapoints can result in a win (i.e. 67-65) while a difference of, say, 4 fantapoints can result in a tie (i.e. 70-66). The "Luck Index" (Indice Fortuna) takes into account two factors:
