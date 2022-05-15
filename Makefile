@@ -1,11 +1,15 @@
+files := ./2018-2019/Fantastats1819.ipynb ./2019-2020/Fantastats1920.ipynb ./2020-2021/Fantastats2021.ipynb ./2021-2022/Fantastats2122.ipynb
+
 create_docs:
 	@echo ">>> CREATE DOCS"
-	@jupyter nbconvert --to markdown ./2018-2019/Fantastats1819.ipynb --no-input --output-dir ./website/docs
-	@jupyter nbconvert --to markdown ./2019-2020/Fantastats1920.ipynb --no-input --output-dir ./website/docs
-	@jupyter nbconvert --to markdown ./2020-2021/Fantastats2021.ipynb --no-input --output-dir ./website/docs
-	@jupyter nbconvert --to markdown ./2021-2022/Fantastats2122.ipynb --no-input --output-dir ./website/docs
+	@$(foreach file, $(files),\
+		jupyter nbconvert --to markdown $(file) \
+		--RegexRemovePreprocessor.patterns="%%writefile.*" \
+		--RegexRemovePreprocessor.patterns="###.*\s\|\s.*" \
+		--RegexRemovePreprocessor.patterns="#\sScores\stxt\sfiles" \
+		--no-input --output-dir ./website/docs;)
 	@jupyter nbconvert --to markdown All-Time-Luck.ipynb --no-input --output-dir ./website/docs
-	
+
 build_site:
 	@echo ">>> BUILD SITE"
 	@cd website && mkdocs build

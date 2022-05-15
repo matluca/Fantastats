@@ -1,203 +1,6 @@
-# 2019-2020
+# Data
 
-# Scores txt files
-
-### Gianluca | La mamma di Enrico
-
-    Overwriting gianluca.txt
-
-
-### Fabio | Porti Chiusi Italiani
-
-    Overwriting fabio.txt
-
-
-### Enrico | Gianlucanonpressare
-
-    Overwriting enrico.txt
-
-
-### Gabriele | Sciagura
-
-    Overwriting gabriele.txt
-
-
-### Luca | Nottingham Forrest Gump
-
-    Overwriting luca.txt
-
-
-### Ale | Sanfa
-
-    Overwriting ale.txt
-
-
-# Fill dataframe
-
-    /home/luca/personal/Fantastats/2019-2020/fanta.py:17: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      df_final = reduce(lambda a, b : a.append(b), df_list)
-    /home/luca/personal/Fantastats/2019-2020/fanta.py:17: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      df_final = reduce(lambda a, b : a.append(b), df_list)
-    /home/luca/personal/Fantastats/2019-2020/fanta.py:17: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      df_final = reduce(lambda a, b : a.append(b), df_list)
-    /home/luca/personal/Fantastats/2019-2020/fanta.py:17: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      df_final = reduce(lambda a, b : a.append(b), df_list)
-    /home/luca/personal/Fantastats/2019-2020/fanta.py:17: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      df_final = reduce(lambda a, b : a.append(b), df_list)
-
-
-    
-    ### Data matchday number 35  ###
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>fantapoints made</th>
-      <th>fantapoints against</th>
-      <th>goals against gk</th>
-      <th>cards</th>
-      <th>defense modifier</th>
-      <th>GM</th>
-      <th>GA</th>
-      <th>result</th>
-      <th>points</th>
-      <th>f_close_games</th>
-      <th>f_day_average</th>
-      <th>Luck Index</th>
-    </tr>
-    <tr>
-      <th>team</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>ale</th>
-      <td>68.0</td>
-      <td>69.5</td>
-      <td>1</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>T</td>
-      <td>1</td>
-      <td>0.3</td>
-      <td>0.2</td>
-      <td>0.5</td>
-    </tr>
-    <tr>
-      <th>enrico</th>
-      <td>76.5</td>
-      <td>60.0</td>
-      <td>0</td>
-      <td>2</td>
-      <td>1</td>
-      <td>3</td>
-      <td>0</td>
-      <td>W</td>
-      <td>3</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>fabio</th>
-      <td>69.5</td>
-      <td>68.0</td>
-      <td>3</td>
-      <td>4</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>T</td>
-      <td>1</td>
-      <td>-0.6</td>
-      <td>0.2</td>
-      <td>-0.4</td>
-    </tr>
-    <tr>
-      <th>gabriele</th>
-      <td>75.0</td>
-      <td>74.5</td>
-      <td>0</td>
-      <td>2</td>
-      <td>1</td>
-      <td>2</td>
-      <td>2</td>
-      <td>T</td>
-      <td>1</td>
-      <td>-0.2</td>
-      <td>-1.0</td>
-      <td>-1.2</td>
-    </tr>
-    <tr>
-      <th>gianluca</th>
-      <td>74.5</td>
-      <td>75.0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>2</td>
-      <td>2</td>
-      <td>T</td>
-      <td>1</td>
-      <td>0.1</td>
-      <td>-1.0</td>
-      <td>-0.9</td>
-    </tr>
-    <tr>
-      <th>luca</th>
-      <td>60.0</td>
-      <td>76.5</td>
-      <td>3</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>3</td>
-      <td>L</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-    
-    
-    ### Cumulative data after matchday 35 ( 35  completed )  ###
-
+### Cumulative Data
 
 
 <div>
@@ -367,11 +170,157 @@
 </div>
 
 
+### Last matchday
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fantapoints made</th>
+      <th>fantapoints against</th>
+      <th>goals against gk</th>
+      <th>cards</th>
+      <th>defense modifier</th>
+      <th>GM</th>
+      <th>GA</th>
+      <th>result</th>
+      <th>points</th>
+      <th>f_close_games</th>
+      <th>f_day_average</th>
+      <th>Luck Index</th>
+    </tr>
+    <tr>
+      <th>team</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ale</th>
+      <td>68.0</td>
+      <td>69.5</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>T</td>
+      <td>1</td>
+      <td>0.3</td>
+      <td>0.2</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th>enrico</th>
+      <td>76.5</td>
+      <td>60.0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>fabio</th>
+      <td>69.5</td>
+      <td>68.0</td>
+      <td>3</td>
+      <td>4</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>T</td>
+      <td>1</td>
+      <td>-0.6</td>
+      <td>0.2</td>
+      <td>-0.4</td>
+    </tr>
+    <tr>
+      <th>gabriele</th>
+      <td>75.0</td>
+      <td>74.5</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>T</td>
+      <td>1</td>
+      <td>-0.2</td>
+      <td>-1.0</td>
+      <td>-1.2</td>
+    </tr>
+    <tr>
+      <th>gianluca</th>
+      <td>74.5</td>
+      <td>75.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>T</td>
+      <td>1</td>
+      <td>0.1</td>
+      <td>-1.0</td>
+      <td>-0.9</td>
+    </tr>
+    <tr>
+      <th>luca</th>
+      <td>60.0</td>
+      <td>76.5</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>L</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 # Luck Index
 
 
     
-![png](Fantastats1920_files/Fantastats1920_19_0.png)
+![png](Fantastats1920_files/Fantastats1920_8_0.png)
     
 
 
@@ -379,31 +328,31 @@
 
 
     
-![png](Fantastats1920_files/Fantastats1920_21_0.png)
+![png](Fantastats1920_files/Fantastats1920_10_0.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_21_1.png)
+![png](Fantastats1920_files/Fantastats1920_10_1.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_21_2.png)
+![png](Fantastats1920_files/Fantastats1920_10_2.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_21_3.png)
+![png](Fantastats1920_files/Fantastats1920_10_3.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_21_4.png)
+![png](Fantastats1920_files/Fantastats1920_10_4.png)
     
 
 
@@ -411,13 +360,13 @@
 
 
     
-![png](Fantastats1920_files/Fantastats1920_23_0.png)
+![png](Fantastats1920_files/Fantastats1920_12_0.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_23_1.png)
+![png](Fantastats1920_files/Fantastats1920_12_1.png)
     
 
 
@@ -425,37 +374,37 @@
 
 
     
-![png](Fantastats1920_files/Fantastats1920_25_0.png)
+![png](Fantastats1920_files/Fantastats1920_14_0.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_25_1.png)
+![png](Fantastats1920_files/Fantastats1920_14_1.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_25_2.png)
+![png](Fantastats1920_files/Fantastats1920_14_2.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_25_3.png)
+![png](Fantastats1920_files/Fantastats1920_14_3.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_25_4.png)
+![png](Fantastats1920_files/Fantastats1920_14_4.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_25_5.png)
+![png](Fantastats1920_files/Fantastats1920_14_5.png)
     
 
 
@@ -463,19 +412,18 @@
 
 
     
-![png](Fantastats1920_files/Fantastats1920_27_0.png)
+![png](Fantastats1920_files/Fantastats1920_16_0.png)
     
 
 
 
     
-![png](Fantastats1920_files/Fantastats1920_28_0.png)
+![png](Fantastats1920_files/Fantastats1920_17_0.png)
     
 
 
 # Stats & more
 
-    ### CUMULATIVE DATA after matchday 35 ( 35  completed )  ###
     Fantapoints made:
      average = 73.11666666666666 
      median = 73.0 
@@ -497,8 +445,8 @@
      'luca': 71.67142857142858}
 
 
-    ### PERSONAL DATA ###
-    
+# Personal Data
+
     Team: Sanfa ( ale )
 
 

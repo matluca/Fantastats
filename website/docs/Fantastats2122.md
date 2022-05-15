@@ -1,191 +1,6 @@
-# 2021/2022
+# Data
 
-# Scores txt files
-
-### Gianluca | La mamma di Enrico
-
-    Overwriting gianluca.txt
-
-
-### Fabio | Porti Chiusi Italiani
-
-    Overwriting fabio.txt
-
-
-### Enrico | Gianlucanonpressare
-
-    Overwriting enrico.txt
-
-
-### Gabriele | Sciagura
-
-    Overwriting gabriele.txt
-
-
-### Luca | Nottingham Forrest Gump
-
-    Overwriting luca.txt
-
-
-### Riccardo | Lagggente
-
-    Overwriting riccardo.txt
-
-
-# Fill dataframe
-
-    
-    ### Data matchday number 34  ###
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>fantapoints made</th>
-      <th>fantapoints against</th>
-      <th>goals against gk</th>
-      <th>cards</th>
-      <th>defense modifier</th>
-      <th>GM</th>
-      <th>GA</th>
-      <th>result</th>
-      <th>points</th>
-      <th>f_close_games</th>
-      <th>f_day_average</th>
-      <th>Luck Index</th>
-    </tr>
-    <tr>
-      <th>team</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>enrico</th>
-      <td>63.0</td>
-      <td>79.5</td>
-      <td>1</td>
-      <td>2</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>3</td>
-      <td>L</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>fabio</th>
-      <td>79.5</td>
-      <td>63.0</td>
-      <td>1</td>
-      <td>4</td>
-      <td>0.5</td>
-      <td>3</td>
-      <td>0</td>
-      <td>W</td>
-      <td>3</td>
-      <td>0.0</td>
-      <td>0.4</td>
-      <td>0.4</td>
-    </tr>
-    <tr>
-      <th>gabriele</th>
-      <td>76.5</td>
-      <td>70.0</td>
-      <td>2</td>
-      <td>0</td>
-      <td>1.0</td>
-      <td>3</td>
-      <td>1</td>
-      <td>W</td>
-      <td>3</td>
-      <td>0.0</td>
-      <td>0.4</td>
-      <td>0.4</td>
-    </tr>
-    <tr>
-      <th>gianluca</th>
-      <td>70.0</td>
-      <td>76.5</td>
-      <td>2</td>
-      <td>3</td>
-      <td>0.5</td>
-      <td>1</td>
-      <td>3</td>
-      <td>L</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>-0.8</td>
-      <td>-0.8</td>
-    </tr>
-    <tr>
-      <th>luca</th>
-      <td>69.0</td>
-      <td>75.5</td>
-      <td>2</td>
-      <td>0</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>L</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>-0.8</td>
-      <td>-0.8</td>
-    </tr>
-    <tr>
-      <th>riccardo</th>
-      <td>75.5</td>
-      <td>69.0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>0.5</td>
-      <td>2</td>
-      <td>1</td>
-      <td>W</td>
-      <td>3</td>
-      <td>0.0</td>
-      <td>1.2</td>
-      <td>1.2</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-    
-    
-    ### Cumulative data after matchday 34 ( 34  completed )  ###
-
+### Cumulative Data
 
 
 <div>
@@ -355,11 +170,157 @@
 </div>
 
 
+### Last Matchday
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fantapoints made</th>
+      <th>fantapoints against</th>
+      <th>goals against gk</th>
+      <th>cards</th>
+      <th>defense modifier</th>
+      <th>GM</th>
+      <th>GA</th>
+      <th>result</th>
+      <th>points</th>
+      <th>f_close_games</th>
+      <th>f_day_average</th>
+      <th>Luck Index</th>
+    </tr>
+    <tr>
+      <th>team</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>enrico</th>
+      <td>63.0</td>
+      <td>79.5</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>L</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>fabio</th>
+      <td>79.5</td>
+      <td>63.0</td>
+      <td>1</td>
+      <td>4</td>
+      <td>0.5</td>
+      <td>3</td>
+      <td>0</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.4</td>
+      <td>0.4</td>
+    </tr>
+    <tr>
+      <th>gabriele</th>
+      <td>76.5</td>
+      <td>70.0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.4</td>
+      <td>0.4</td>
+    </tr>
+    <tr>
+      <th>gianluca</th>
+      <td>70.0</td>
+      <td>76.5</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.5</td>
+      <td>1</td>
+      <td>3</td>
+      <td>L</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>-0.8</td>
+      <td>-0.8</td>
+    </tr>
+    <tr>
+      <th>luca</th>
+      <td>69.0</td>
+      <td>75.5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>L</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>-0.8</td>
+      <td>-0.8</td>
+    </tr>
+    <tr>
+      <th>riccardo</th>
+      <td>75.5</td>
+      <td>69.0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0.5</td>
+      <td>2</td>
+      <td>1</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>1.2</td>
+      <td>1.2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 # Luck Index
 
 
     
-![png](Fantastats2122_files/Fantastats2122_19_0.png)
+![png](Fantastats2122_files/Fantastats2122_8_0.png)
     
 
 
@@ -367,31 +328,31 @@
 
 
     
-![png](Fantastats2122_files/Fantastats2122_21_0.png)
+![png](Fantastats2122_files/Fantastats2122_10_0.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_21_1.png)
+![png](Fantastats2122_files/Fantastats2122_10_1.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_21_2.png)
+![png](Fantastats2122_files/Fantastats2122_10_2.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_21_3.png)
+![png](Fantastats2122_files/Fantastats2122_10_3.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_21_4.png)
+![png](Fantastats2122_files/Fantastats2122_10_4.png)
     
 
 
@@ -399,13 +360,13 @@
 
 
     
-![png](Fantastats2122_files/Fantastats2122_23_0.png)
+![png](Fantastats2122_files/Fantastats2122_12_0.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_23_1.png)
+![png](Fantastats2122_files/Fantastats2122_12_1.png)
     
 
 
@@ -413,37 +374,37 @@
 
 
     
-![png](Fantastats2122_files/Fantastats2122_25_0.png)
+![png](Fantastats2122_files/Fantastats2122_14_0.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_25_1.png)
+![png](Fantastats2122_files/Fantastats2122_14_1.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_25_2.png)
+![png](Fantastats2122_files/Fantastats2122_14_2.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_25_3.png)
+![png](Fantastats2122_files/Fantastats2122_14_3.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_25_4.png)
+![png](Fantastats2122_files/Fantastats2122_14_4.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_25_5.png)
+![png](Fantastats2122_files/Fantastats2122_14_5.png)
     
 
 
@@ -451,19 +412,18 @@
 
 
     
-![png](Fantastats2122_files/Fantastats2122_27_0.png)
+![png](Fantastats2122_files/Fantastats2122_16_0.png)
     
 
 
 
     
-![png](Fantastats2122_files/Fantastats2122_28_0.png)
+![png](Fantastats2122_files/Fantastats2122_17_0.png)
     
 
 
 # Stats & more
 
-    ### CUMULATIVE DATA after matchday 34 ( 34  completed )  ###
     Fantapoints made:
      average = 73.47549019607843 
      median = 72.5 
@@ -485,8 +445,8 @@
      'riccardo': 73.36764705882354}
 
 
-    ### PERSONAL DATA ###
-    
+# Personal Data
+
     Team: Gianlucanonpressare ( enrico )
 
 
