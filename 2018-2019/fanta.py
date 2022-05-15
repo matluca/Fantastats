@@ -14,7 +14,7 @@ def configure_db():
         df_result.dropna(axis=0, inplace=True)
         df_result['team'] = team
         df_list.append(df_result)
-    df_final = reduce(lambda a, b : a.append(b), df_list)
+    df_final = reduce(lambda a, b : pd.concat([a,b]), df_list)
     df_final.index.name = 'Game'
     # Adding columns to the dataframe
     df_final['GM'] = df_final.apply(lambda x: get_goal(x['fantapoints made'], x['fantapoints against']), axis=1)
