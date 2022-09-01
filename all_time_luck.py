@@ -16,7 +16,9 @@ def all_time_luck():
     luck3['year'] = 2021
     luck4 = pd.read_csv('2021-2022/luck.csv')
     luck4['year'] = 2022
-    luck = pd.concat([luck1, luck2, luck3, luck4])
+    luck5 = pd.read_csv('2022-2023/luck.csv')
+    luck5['year'] = 2023
+    luck = pd.concat([luck1, luck2, luck3, luck4, luck5])
     
     #fill dataframe
     players = luck['team'].unique()

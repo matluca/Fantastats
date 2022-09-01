@@ -1,4 +1,4 @@
-files := ./2018-2019/Fantastats1819.ipynb ./2019-2020/Fantastats1920.ipynb ./2020-2021/Fantastats2021.ipynb ./2021-2022/Fantastats2122.ipynb
+files := ./2018-2019/Fantastats1819.ipynb ./2019-2020/Fantastats1920.ipynb ./2020-2021/Fantastats2021.ipynb ./2021-2022/Fantastats2122.ipynb ./2022-2023/Fantastats2223.ipynb
 
 create_docs:
 	@echo ">>> CREATE DOCS"
