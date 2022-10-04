@@ -58,112 +58,112 @@
   </thead>
   <tbody>
     <tr>
-      <th>enrico</th>
-      <td>1</td>
-      <td>4</td>
-      <td>0</td>
-      <td>166.0</td>
-      <td>1</td>
-      <td>154.0</td>
-      <td>1W,1T,0L</td>
-      <td>8</td>
-      <td>6</td>
-      <td>2</td>
-      <td>5</td>
-      <td>1.0</td>
-      <td>0.1</td>
-      <td>-1.6</td>
-      <td>-1.5</td>
-    </tr>
-    <tr>
       <th>luca</th>
-      <td>2</td>
-      <td>4</td>
+      <td>1</td>
+      <td>7</td>
       <td>0</td>
-      <td>156.0</td>
+      <td>238.5</td>
       <td>2</td>
-      <td>150.5</td>
-      <td>1W,1T,0L</td>
-      <td>6</td>
-      <td>5</td>
+      <td>227.0</td>
+      <td>2W,1T,0L</td>
+      <td>10</td>
+      <td>8</td>
       <td>3</td>
       <td>1</td>
-      <td>1.0</td>
+      <td>1.5</td>
       <td>-0.2</td>
-      <td>-0.6</td>
-      <td>-0.8</td>
+      <td>-0.2</td>
+      <td>-0.4</td>
+    </tr>
+    <tr>
+      <th>enrico</th>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>239.5</td>
+      <td>1</td>
+      <td>225.5</td>
+      <td>1W,2T,0L</td>
+      <td>10</td>
+      <td>8</td>
+      <td>3</td>
+      <td>6</td>
+      <td>1.0</td>
+      <td>-0.7</td>
+      <td>-1.0</td>
+      <td>-1.7</td>
     </tr>
     <tr>
       <th>gianluca</th>
       <td>3</td>
-      <td>4</td>
-      <td>0</td>
-      <td>134.0</td>
       <td>5</td>
-      <td>131.0</td>
-      <td>1W,1T,0L</td>
       <td>2</td>
-      <td>1</td>
+      <td>205.5</td>
+      <td>5</td>
+      <td>204.5</td>
+      <td>1W,2T,0L</td>
+      <td>4</td>
       <td>3</td>
-      <td>2</td>
-      <td>0.5</td>
-      <td>0.6</td>
-      <td>2.4</td>
+      <td>4</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>1.0</td>
       <td>3.0</td>
-    </tr>
-    <tr>
-      <th>gabriele</th>
-      <td>4</td>
-      <td>3</td>
-      <td>1</td>
-      <td>140.5</td>
-      <td>4</td>
-      <td>140.0</td>
-      <td>1W,0T,1L</td>
-      <td>3</td>
-      <td>3</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1.5</td>
-      <td>0.0</td>
-      <td>0.8</td>
-      <td>0.8</td>
+      <td>4.0</td>
     </tr>
     <tr>
       <th>fabio</th>
-      <td>5</td>
-      <td>1</td>
-      <td>3</td>
-      <td>143.0</td>
-      <td>3</td>
-      <td>154.5</td>
-      <td>0W,1T,1L</td>
       <td>4</td>
-      <td>6</td>
-      <td>0</td>
+      <td>4</td>
       <td>3</td>
+      <td>226.0</td>
+      <td>3</td>
+      <td>226.0</td>
+      <td>1W,1T,1L</td>
+      <td>8</td>
+      <td>8</td>
+      <td>0</td>
+      <td>5</td>
       <td>1.0</td>
       <td>-0.4</td>
+      <td>-1.6</td>
       <td>-2.0</td>
-      <td>-2.4</td>
+    </tr>
+    <tr>
+      <th>gabriele</th>
+      <td>5</td>
+      <td>3</td>
+      <td>4</td>
+      <td>212.0</td>
+      <td>4</td>
+      <td>223.0</td>
+      <td>1W,0T,2L</td>
+      <td>5</td>
+      <td>7</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2.5</td>
+      <td>0.0</td>
+      <td>0.4</td>
+      <td>0.4</td>
     </tr>
     <tr>
       <th>riccardo</th>
       <td>6</td>
       <td>0</td>
-      <td>4</td>
-      <td>126.0</td>
-      <td>6</td>
-      <td>135.5</td>
-      <td>0W,0T,2L</td>
-      <td>0</td>
-      <td>2</td>
-      <td>2</td>
       <td>7</td>
-      <td>1.0</td>
+      <td>202.5</td>
+      <td>6</td>
+      <td>218.0</td>
+      <td>0W,0T,3L</td>
+      <td>3</td>
+      <td>6</td>
+      <td>3</td>
+      <td>8</td>
+      <td>2.0</td>
       <td>-0.2</td>
-      <td>0.0</td>
-      <td>-0.2</td>
+      <td>-1.8</td>
+      <td>-2.0</td>
     </tr>
   </tbody>
 </table>
@@ -223,93 +223,93 @@
   <tbody>
     <tr>
       <th>enrico</th>
-      <td>77.5</td>
-      <td>78.0</td>
+      <td>73.5</td>
+      <td>71.5</td>
       <td>1</td>
-      <td>3</td>
-      <td>1.0</td>
-      <td>3</td>
-      <td>3</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>2</td>
       <td>T</td>
       <td>1</td>
-      <td>0.1</td>
-      <td>-1.6</td>
-      <td>-1.5</td>
+      <td>-0.8</td>
+      <td>0.6</td>
+      <td>-0.2</td>
     </tr>
     <tr>
       <th>fabio</th>
-      <td>67.0</td>
-      <td>66.0</td>
+      <td>83.0</td>
+      <td>71.5</td>
       <td>0</td>
       <td>2</td>
       <td>0.0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>T</td>
-      <td>1</td>
-      <td>-0.4</td>
-      <td>0.0</td>
-      <td>-0.4</td>
-    </tr>
-    <tr>
-      <th>gabriele</th>
-      <td>67.5</td>
-      <td>62.0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0.5</td>
-      <td>1</td>
-      <td>0</td>
+      <td>4</td>
+      <td>2</td>
       <td>W</td>
       <td>3</td>
       <td>0.0</td>
-      <td>2.0</td>
-      <td>2.0</td>
+      <td>0.4</td>
+      <td>0.4</td>
     </tr>
     <tr>
-      <th>gianluca</th>
-      <td>66.0</td>
-      <td>67.0</td>
-      <td>2</td>
-      <td>2</td>
-      <td>0.0</td>
+      <th>gabriele</th>
+      <td>71.5</td>
+      <td>83.0</td>
       <td>1</td>
-      <td>1</td>
-      <td>T</td>
-      <td>1</td>
-      <td>0.2</td>
-      <td>0.0</td>
-      <td>0.2</td>
-    </tr>
-    <tr>
-      <th>luca</th>
-      <td>78.0</td>
-      <td>77.5</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0.5</td>
-      <td>3</td>
-      <td>3</td>
-      <td>T</td>
-      <td>1</td>
-      <td>-0.2</td>
-      <td>-1.6</td>
-      <td>-1.8</td>
-    </tr>
-    <tr>
-      <th>riccardo</th>
-      <td>62.0</td>
-      <td>67.5</td>
-      <td>1</td>
-      <td>4</td>
-      <td>1.0</td>
       <td>0</td>
-      <td>1</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>4</td>
       <td>L</td>
       <td>0</td>
       <td>0.0</td>
+      <td>-0.4</td>
+      <td>-0.4</td>
+    </tr>
+    <tr>
+      <th>gianluca</th>
+      <td>71.5</td>
+      <td>73.5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.5</td>
+      <td>2</td>
+      <td>2</td>
+      <td>T</td>
+      <td>1</td>
+      <td>0.4</td>
+      <td>0.6</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>luca</th>
+      <td>82.5</td>
+      <td>76.5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.5</td>
+      <td>4</td>
+      <td>3</td>
+      <td>W</td>
+      <td>3</td>
       <td>0.0</td>
+      <td>0.4</td>
+      <td>0.4</td>
+    </tr>
+    <tr>
+      <th>riccardo</th>
+      <td>76.5</td>
+      <td>82.5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>4</td>
+      <td>L</td>
+      <td>0</td>
       <td>0.0</td>
+      <td>-1.8</td>
+      <td>-1.8</td>
     </tr>
   </tbody>
 </table>
@@ -425,24 +425,24 @@
 # Stats & more
 
     Fantapoints made:
-     average = 72.125 
-     median = 70.5 
-     standard deviation = 7.37429375149467 
+     average = 73.55555555555556 
+     median = 73.25 
+     standard deviation = 6.925975440504329 
     Goals made:
-     average = 1.9166666666666667 
-     median = 1.5 
-     standard deviation = 1.4409680388158819
+     average = 2.2222222222222223 
+     median = 2.0 
+     standard deviation = 1.3562839573037448
     
      Personal Averages (Fantapoints):
 
 
 
-    {'enrico': 83.0,
-     'fabio': 71.5,
-     'gabriele': 70.25,
-     'gianluca': 67.0,
-     'luca': 78.0,
-     'riccardo': 63.0}
+    {'enrico': 79.83333333333333,
+     'fabio': 75.33333333333333,
+     'gabriele': 70.66666666666667,
+     'gianluca': 68.5,
+     'luca': 79.5,
+     'riccardo': 67.5}
 
 
 # Personal Data
@@ -528,6 +528,21 @@
       <td>0.1</td>
       <td>-1.6</td>
       <td>-1.5</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>73.5</td>
+      <td>71.5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>T</td>
+      <td>1</td>
+      <td>-0.8</td>
+      <td>0.6</td>
+      <td>-0.2</td>
     </tr>
   </tbody>
 </table>
@@ -619,6 +634,21 @@
       <td>0.0</td>
       <td>-0.4</td>
     </tr>
+    <tr>
+      <th>3</th>
+      <td>83.0</td>
+      <td>71.5</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0.0</td>
+      <td>4</td>
+      <td>2</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.4</td>
+      <td>0.4</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -708,6 +738,21 @@
       <td>0.0</td>
       <td>2.0</td>
       <td>2.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>71.5</td>
+      <td>83.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>4</td>
+      <td>L</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>-0.4</td>
+      <td>-0.4</td>
     </tr>
   </tbody>
 </table>
@@ -799,6 +844,21 @@
       <td>0.0</td>
       <td>0.2</td>
     </tr>
+    <tr>
+      <th>3</th>
+      <td>71.5</td>
+      <td>73.5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.5</td>
+      <td>2</td>
+      <td>2</td>
+      <td>T</td>
+      <td>1</td>
+      <td>0.4</td>
+      <td>0.6</td>
+      <td>1.0</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -889,6 +949,21 @@
       <td>-1.6</td>
       <td>-1.8</td>
     </tr>
+    <tr>
+      <th>3</th>
+      <td>82.5</td>
+      <td>76.5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.5</td>
+      <td>4</td>
+      <td>3</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.4</td>
+      <td>0.4</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -978,6 +1053,21 @@
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>76.5</td>
+      <td>82.5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>4</td>
+      <td>L</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>-1.8</td>
+      <td>-1.8</td>
     </tr>
   </tbody>
 </table>
