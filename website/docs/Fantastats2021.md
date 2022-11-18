@@ -1,4 +1,4 @@
-# Data
+## Data
 
 ### Cumulative Data
 
@@ -320,7 +320,7 @@
 </div>
 
 
-# Luck Index
+## Luck Index
 
 
     
@@ -328,7 +328,7 @@
     
 
 
-# Evolution Plots
+## Evolution Plots
 
 
     
@@ -360,7 +360,7 @@
     
 
 
-# Box plots
+## Box plots
 
 
     
@@ -374,7 +374,7 @@
     
 
 
-# Grahical display of results
+## Grahical display of results
 
 
     
@@ -412,7 +412,7 @@
     
 
 
-# Points and Goals vs Expected values
+## Points and Goals vs Expected values
 
 
     
@@ -426,7 +426,7 @@
     
 
 
-# Stats & more
+## Stats & more
 
     Fantapoints made:
      average = 75.06904761904762 
@@ -449,7 +449,7 @@
      'riccardo': 75.85714285714286}
 
 
-# Personal Data
+## Personal Data
 
     Team: Gianlucanonpressare ( enrico )
 

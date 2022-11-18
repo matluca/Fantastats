@@ -1,4 +1,32 @@
+theme:
+  name: material
+  features:
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+  logo: img/favicon.ico
+  favicon: img/favicon.ico
+
 site_name: Fantaculo Nonsolobaschet
+
+repo_url: https://github.com/matluca/Fantastats/
+repo_name: matluca/Fantastats
+
 nav:
   - Home: index.md
   - 2018/19: Fantastats1819.md
@@ -7,3 +35,7 @@ nav:
   - 2021/22: Fantastats2122.md
   - 2022/23: Fantastats2223.md
   - All-Time Luck: All-Time-Luck.md
+
+plugins: [] ## disable search bar
+edit_uri: "" ## disable edit button
+

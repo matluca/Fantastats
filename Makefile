@@ -6,7 +6,7 @@ create_docs:
 		jupyter nbconvert --to markdown $(file) \
 		--RegexRemovePreprocessor.patterns="%%writefile.*" \
 		--RegexRemovePreprocessor.patterns="###.*\s\|\s.*" \
-		--RegexRemovePreprocessor.patterns="#\sScores\stxt\sfiles" \
+		--RegexRemovePreprocessor.patterns="##\sScores\stxt\sfiles" \
 		--no-input --output-dir ./website/docs;)
 	@jupyter nbconvert --to markdown All-Time-Luck.ipynb --no-input --output-dir ./website/docs
 
