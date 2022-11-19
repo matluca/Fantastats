@@ -2,4 +2,5 @@
 __pycache__
 scraping
 website/site/
-website/docs/*/
+website/docs/*files/
+/.idea/
