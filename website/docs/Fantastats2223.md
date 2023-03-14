@@ -60,107 +60,107 @@
     <tr>
       <th>luca</th>
       <td>1</td>
-      <td>38</td>
+      <td>41</td>
       <td>0</td>
-      <td>1480.5</td>
+      <td>1552.0</td>
       <td>2</td>
-      <td>1426.0</td>
-      <td>10W,8T,2L</td>
-      <td>42</td>
+      <td>1493.0</td>
+      <td>11W,8T,2L</td>
+      <td>44</td>
+      <td>33</td>
+      <td>14</td>
       <td>32</td>
-      <td>12</td>
-      <td>31</td>
-      <td>10.0</td>
-      <td>0.6</td>
-      <td>7.0</td>
-      <td>7.6</td>
+      <td>10.5</td>
+      <td>0.8</td>
+      <td>8.4</td>
+      <td>9.2</td>
     </tr>
     <tr>
       <th>fabio</th>
       <td>2</td>
-      <td>29</td>
-      <td>9</td>
-      <td>1445.0</td>
+      <td>30</td>
+      <td>11</td>
+      <td>1518.0</td>
       <td>3</td>
-      <td>1431.0</td>
-      <td>8W,5T,7L</td>
-      <td>36</td>
-      <td>35</td>
+      <td>1505.0</td>
+      <td>8W,6T,7L</td>
+      <td>38</td>
+      <td>37</td>
       <td>15</td>
-      <td>30</td>
-      <td>15.0</td>
-      <td>-0.5</td>
-      <td>1.6</td>
-      <td>1.1</td>
-    </tr>
-    <tr>
-      <th>gabriele</th>
-      <td>3</td>
-      <td>28</td>
-      <td>10</td>
-      <td>1403.5</td>
-      <td>6</td>
-      <td>1429.5</td>
-      <td>8W,4T,8L</td>
-      <td>29</td>
-      <td>34</td>
-      <td>13</td>
-      <td>26</td>
-      <td>20.0</td>
-      <td>1.6</td>
-      <td>7.6</td>
-      <td>9.2</td>
-    </tr>
-    <tr>
-      <th>enrico</th>
-      <td>4</td>
-      <td>26</td>
-      <td>12</td>
-      <td>1514.0</td>
-      <td>1</td>
-      <td>1481.5</td>
-      <td>7W,5T,8L</td>
-      <td>49</td>
-      <td>45</td>
-      <td>13</td>
-      <td>30</td>
-      <td>10.0</td>
-      <td>-4.5</td>
-      <td>-9.4</td>
-      <td>-13.9</td>
+      <td>33</td>
+      <td>15.5</td>
+      <td>-0.3</td>
+      <td>1.0</td>
+      <td>0.7</td>
     </tr>
     <tr>
       <th>gianluca</th>
-      <td>5</td>
-      <td>25</td>
+      <td>3</td>
+      <td>28</td>
       <td>13</td>
-      <td>1413.5</td>
+      <td>1490.0</td>
       <td>5</td>
-      <td>1464.5</td>
-      <td>7W,4T,9L</td>
-      <td>32</td>
+      <td>1529.5</td>
+      <td>8W,4T,9L</td>
+      <td>35</td>
       <td>40</td>
-      <td>27</td>
+      <td>28</td>
       <td>20</td>
-      <td>14.0</td>
+      <td>15.0</td>
       <td>1.4</td>
       <td>0.4</td>
       <td>1.8</td>
     </tr>
     <tr>
+      <th>gabriele</th>
+      <td>4</td>
+      <td>28</td>
+      <td>13</td>
+      <td>1470.5</td>
+      <td>6</td>
+      <td>1501.0</td>
+      <td>8W,4T,9L</td>
+      <td>30</td>
+      <td>36</td>
+      <td>15</td>
+      <td>26</td>
+      <td>21.0</td>
+      <td>1.5</td>
+      <td>7.0</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <th>enrico</th>
+      <td>5</td>
+      <td>27</td>
+      <td>14</td>
+      <td>1588.0</td>
+      <td>1</td>
+      <td>1554.5</td>
+      <td>7W,6T,8L</td>
+      <td>51</td>
+      <td>47</td>
+      <td>17</td>
+      <td>33</td>
+      <td>13.0</td>
+      <td>-4.9</td>
+      <td>-10.0</td>
+      <td>-14.9</td>
+    </tr>
+    <tr>
       <th>riccardo</th>
       <td>6</td>
       <td>20</td>
-      <td>18</td>
-      <td>1431.0</td>
+      <td>21</td>
+      <td>1496.0</td>
       <td>4</td>
-      <td>1455.0</td>
-      <td>6W,2T,12L</td>
+      <td>1531.5</td>
+      <td>6W,2T,13L</td>
       <td>36</td>
-      <td>38</td>
+      <td>41</td>
       <td>25</td>
-      <td>34</td>
-      <td>19.5</td>
+      <td>35</td>
+      <td>20.0</td>
       <td>2.0</td>
       <td>-6.2</td>
       <td>-4.2</td>
@@ -223,90 +223,90 @@
   <tbody>
     <tr>
       <th>enrico</th>
-      <td>70.0</td>
-      <td>79.0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>0.5</td>
-      <td>1</td>
+      <td>74.0</td>
+      <td>73.0</td>
+      <td>4</td>
       <td>3</td>
-      <td>L</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>-0.6</td>
-      <td>-0.6</td>
-    </tr>
-    <tr>
-      <th>fabio</th>
-      <td>69.5</td>
-      <td>71.0</td>
+      <td>3.0</td>
       <td>2</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>1</td>
       <td>2</td>
-      <td>L</td>
-      <td>0</td>
-      <td>-0.7</td>
-      <td>-0.6</td>
-      <td>-1.3</td>
-    </tr>
-    <tr>
-      <th>gabriele</th>
-      <td>68.0</td>
-      <td>67.0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>1</td>
       <td>T</td>
       <td>1</td>
       <td>-0.4</td>
-      <td>0.4</td>
-      <td>0.0</td>
+      <td>-0.6</td>
+      <td>-1.0</td>
     </tr>
     <tr>
-      <th>gianluca</th>
-      <td>67.0</td>
-      <td>68.0</td>
+      <th>fabio</th>
+      <td>73.0</td>
+      <td>74.0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0.5</td>
       <td>2</td>
-      <td>1</td>
-      <td>2.0</td>
-      <td>1</td>
-      <td>1</td>
+      <td>2</td>
       <td>T</td>
       <td>1</td>
       <td>0.2</td>
-      <td>0.4</td>
-      <td>0.6</td>
+      <td>-0.6</td>
+      <td>-0.4</td>
+    </tr>
+    <tr>
+      <th>gabriele</th>
+      <td>67.0</td>
+      <td>71.5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>L</td>
+      <td>0</td>
+      <td>-0.1</td>
+      <td>-0.6</td>
+      <td>-0.7</td>
+    </tr>
+    <tr>
+      <th>gianluca</th>
+      <td>76.5</td>
+      <td>65.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>0</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
     </tr>
     <tr>
       <th>luca</th>
-      <td>71.0</td>
-      <td>69.5</td>
-      <td>0</td>
+      <td>71.5</td>
+      <td>67.0</td>
+      <td>2</td>
       <td>1</td>
-      <td>1.0</td>
+      <td>0.5</td>
       <td>2</td>
       <td>1</td>
       <td>W</td>
       <td>3</td>
+      <td>0.2</td>
       <td>1.4</td>
-      <td>0.6</td>
-      <td>2.0</td>
+      <td>1.6</td>
     </tr>
     <tr>
       <th>riccardo</th>
-      <td>79.0</td>
-      <td>70.0</td>
+      <td>65.0</td>
+      <td>76.5</td>
       <td>0</td>
       <td>1</td>
-      <td>2.0</td>
+      <td>0.5</td>
+      <td>0</td>
       <td>3</td>
-      <td>1</td>
-      <td>W</td>
-      <td>3</td>
+      <td>L</td>
+      <td>0</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -425,28 +425,28 @@
 ## Stats & more
 
     Fantapoints made:
-     average = 72.39583333333333 
+     average = 72.33730158730158 
      median = 72.5 
-     standard deviation = 5.96723548266327 
+     standard deviation = 5.8938457831363635 
     Goals made:
-     average = 1.8666666666666667 
+     average = 1.8571428571428572 
      median = 2.0 
-     standard deviation = 1.168569876197207
+     standard deviation = 1.1595995868462783
     
      Personal Averages (Fantapoints):
 
 
-    /tmp/ipykernel_162652/2740927257.py:7: FutureWarning: In a future version of pandas, a length 1 tuple will be returned when iterating over a groupby with a grouper equal to a list of length 1. Don't supply a list with a single grouper to avoid this warning.
+    /tmp/ipykernel_32976/2740927257.py:7: FutureWarning: In a future version of pandas, a length 1 tuple will be returned when iterating over a groupby with a grouper equal to a list of length 1. Don't supply a list with a single grouper to avoid this warning.
       for team, new_df in df_final.groupby(['team']):
 
 
 
-    {'enrico': 75.7,
-     'fabio': 72.25,
-     'gabriele': 70.175,
-     'gianluca': 70.675,
-     'luca': 74.025,
-     'riccardo': 71.55}
+    {'enrico': 75.61904761904762,
+     'fabio': 72.28571428571429,
+     'gabriele': 70.02380952380952,
+     'gianluca': 70.95238095238095,
+     'luca': 73.9047619047619,
+     'riccardo': 71.23809523809524}
 
 
 ## Personal Data
@@ -454,7 +454,7 @@
     Team: Gianlucanonpressare ( enrico )
 
 
-    /tmp/ipykernel_162652/1845220182.py:3: FutureWarning: In a future version of pandas, a length 1 tuple will be returned when iterating over a groupby with a grouper equal to a list of length 1. Don't supply a list with a single grouper to avoid this warning.
+    /tmp/ipykernel_32976/1845220182.py:3: FutureWarning: In a future version of pandas, a length 1 tuple will be returned when iterating over a groupby with a grouper equal to a list of length 1. Don't supply a list with a single grouper to avoid this warning.
       for team, new_df in df_final.groupby(['team']):
 
 
@@ -806,6 +806,21 @@
       <td>0.0</td>
       <td>-0.6</td>
       <td>-0.6</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>74.0</td>
+      <td>73.0</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>T</td>
+      <td>1</td>
+      <td>-0.4</td>
+      <td>-0.6</td>
+      <td>-1.0</td>
     </tr>
   </tbody>
 </table>
@@ -1167,6 +1182,21 @@
       <td>-0.6</td>
       <td>-1.3</td>
     </tr>
+    <tr>
+      <th>21</th>
+      <td>73.0</td>
+      <td>74.0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0.5</td>
+      <td>2</td>
+      <td>2</td>
+      <td>T</td>
+      <td>1</td>
+      <td>0.2</td>
+      <td>-0.6</td>
+      <td>-0.4</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -1526,6 +1556,21 @@
       <td>-0.4</td>
       <td>0.4</td>
       <td>0.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>67.0</td>
+      <td>71.5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>L</td>
+      <td>0</td>
+      <td>-0.1</td>
+      <td>-0.6</td>
+      <td>-0.7</td>
     </tr>
   </tbody>
 </table>
@@ -1887,6 +1932,21 @@
       <td>0.4</td>
       <td>0.6</td>
     </tr>
+    <tr>
+      <th>21</th>
+      <td>76.5</td>
+      <td>65.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>0</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -2247,6 +2307,21 @@
       <td>0.6</td>
       <td>2.0</td>
     </tr>
+    <tr>
+      <th>21</th>
+      <td>71.5</td>
+      <td>67.0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.5</td>
+      <td>2</td>
+      <td>1</td>
+      <td>W</td>
+      <td>3</td>
+      <td>0.2</td>
+      <td>1.4</td>
+      <td>1.6</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -2603,6 +2678,21 @@
       <td>1</td>
       <td>W</td>
       <td>3</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>65.0</td>
+      <td>76.5</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.5</td>
+      <td>0</td>
+      <td>3</td>
+      <td>L</td>
+      <td>0</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
