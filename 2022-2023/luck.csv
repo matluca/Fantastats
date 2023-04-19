@@ -23,6 +23,7 @@ Game,Luck Index,team
 22,-2.2,enrico
 23,-0.2,enrico
 24,-0.4,enrico
+25,3.2,enrico
 1,-2.0,fabio
 2,-0.4,fabio
 3,0.4,fabio
@@ -47,6 +48,7 @@ Game,Luck Index,team
 22,1.2,fabio
 23,0.8,fabio
 24,-0.8,fabio
+25,0.8,fabio
 1,-1.2,gabriele
 2,2.0,gabriele
 3,-0.4,gabriele
@@ -71,6 +73,7 @@ Game,Luck Index,team
 22,0.8,gabriele
 23,-0.2,gabriele
 24,-1.0,gabriele
+25,-1.2,gabriele
 1,2.8,gianluca
 2,0.2,gianluca
 3,1.0,gianluca
@@ -95,6 +98,7 @@ Game,Luck Index,team
 22,-0.4,gianluca
 23,0.8,gianluca
 24,-1.6,gianluca
+25,-1.2,gianluca
 1,1.0,luca
 2,-1.8,luca
 3,0.4,luca
@@ -119,6 +123,7 @@ Game,Luck Index,team
 22,-1.3,luca
 23,0.8,luca
 24,0.0,luca
+25,-0.8,luca
 1,-0.2,riccardo
 2,0.0,riccardo
 3,-1.8,riccardo
@@ -143,3 +148,4 @@ Game,Luck Index,team
 22,0.2,riccardo
 23,-1.2,riccardo
 24,1.6,riccardo
+25,-0.5,riccardo
